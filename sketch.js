@@ -86,13 +86,13 @@ background(255);
 if (noneFlag==0){
   sizeA=sizeA+2;
      
-  if (sizeA>=200){
-    sizeA=200;
+  if (sizeA>=100){
+    sizeA=100;
   }
 
 }
 else{
-    sizeA=sizeA-10;
+    sizeA=sizeA-20;
     if (sizeA<=0){
       sizeA=0;
     }
@@ -114,13 +114,13 @@ if (noneFlag2==0){
  
   sizeB=sizeB+2;
      
-  if (sizeB>=200){
-    sizeB=200;
+  if (sizeB>=100){
+    sizeB=100;
   }
 
 }
 else{
-    sizeB=sizeB-10;
+    sizeB=sizeB-20;
     if (sizeB<=0){
       sizeB=0;
     }
